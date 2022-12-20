@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+body{
+    background:#150535;
+}
+header{
+    width:100%;
+    height:150px;
+    background-image:linear-gradient(to bottom right,#150535,black);
+    opacity:0.8;
+    position:fixed;
+    z-index:2;
+}
+#header-img{
+    width:100%;
+    height:150px;
+    background:url('Pngtreeblue technology wave line and_8364638.png') no-repeat;
+    background-position:0 72%;
+    background-size:cover;
+    position:fixed;
+    z-index:1;
+    filter:brightness(70%);
+}
+#img{
+    width:100px;
+    height:100px;
+    border:1px solid white;
+    border-radius:50%;
+    background:url('Logogabbranco.jpg') no-repeat center;
+    background-size:contain;
+    position:fixed;
+    top:25px;
+    left:2%;
+    z-index:4;
+}
+#header-2{
+    background-image:linear-gradient(to bottom right,#150535,black);
+    width:100%;
+    height:150px;
+    position:fixed;
+}
+#blank{
+    width:100%;
+    height:150px;
+    display:block;
+}
+#links{
+    position:absolute;
+    top:50%;
+    right:5%;
+    transform:translateY(-50%);
+    display:flex;
+}
+#links a{
+    font-size:20px;
+    font-family:sans-serif;
+    text-decoration:none;
+    color:white;
+    padding:0 10px;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    cursor:pointer;
+}
+#links a:hover{
+    color:#ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+main{
+    width:100%;
+    height:1000px;
+}
+#player{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+#player img{
+    width:50px;
+}
+#playlist{
+    display:none;
+}
+footer{
+    width:100%;
+    height:500px;
+    background-image:linear-gradient(to top right,#150535,black);
+    border-top:1px solid blueviolet;
+}
+#redes-sociais{
+    width:100%;
+    max-width:240px;
+    margin:auto;
+    padding:100px 0 0 0;
+    display:flex;
+    justify-content:center;
+}
+#redes-sociais a{
+    width:25%;
+    height:auto;
+    padding:5px;
+}
+#redes-sociais img{
+    width:100%;
+    max-width:50px;
+    height:auto;
+}
+#return{
+    position:relative;
+    top:50px;
+    left:10%;
+    font-family:sans-serif;
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    border-top:1px solid blue;
+    border-right:1px solid blue;
+    border-bottom:1px solid blueviolet;
+    border-left:1px solid blueviolet;
+    border-radius:5px;
+}
+
+.bio{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    display: flex;
+    padding: 8.5px;
+    text-align-last: start;
+    word-spacing: normal;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: medium;
+    color: white;
+    text-indent: 25px;
+}
+
+.img-bio{
+    width: auto !important;
+    display: flex;
+    height: auto !important;
+    align-items: right;
+    box-shadow: rgb(54, 53, 53);
+    background: none;
+}
