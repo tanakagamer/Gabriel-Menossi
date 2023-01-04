@@ -22,11 +22,26 @@
         <div id="blank"></div>
         <main>
             <a id="player" href="#player"></a>
+            <section>
+                <video id = "slider" autoplay loop>
+                    <source src="./FAZENDOCOMERCIAL.mp4" type="video/mp4">
+                </video>
+                <ul class="navigation">
+                    <li onclick="videoUrl('./FAZENDOCOMERCIAL.mp4')"><img src="./thumb1.jpg" alt=" thumb video 1"></li>
+                    <li onclick="videoUrl('./FeedbackStefanypermanente.mp4')"><img src="./thumb2.jpg" alt=" thumb video 2"></li>
+                    <li onclick="videoUrl('./TESTESTEFANY.mp4')"><img src="./thumb3.jpg" alt=" thumb video 3"></li>
+                </ul>
+            </section>
+            <script type="text/javascript">
+                function videoUrl(url) {
+                    document.getElementById("slider").src = url
+                }
+            </script>
         </main>
         <footer>
             <div id="redes-sociais">
                 <a href="https://api.whatsapp.com/send?phone=5516994443759&text=Ol%C3%A1%20Gabriel,%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho" target="_blank"><img src="WhatsApp-Logo.png"></a>
-                <a href=""><img src="Twitter-Logo.jpg"></a>
+                <a href=""><img src="Twitter-Logo.jpg" alt="twitter"></a>
                 <a href="https://www.tiktok.com/@gabsmenossi" target="_blank"><img src="TikTok-Logo.jpg" target="_blank"></a>
                 <a href="https://www.instagram.com/gabsgabsmenossi/" target="_blank"><img src="Instagram-Logo.jpg"></a>
                 <a href="https://www.facebook.com/gabsgabsmenossi" target="_blank"><img src="Facebook-Logo.jpg"></a>
